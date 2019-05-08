@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/secondTitle"
+        android:id="@+id/jumperTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="56dp"
-        android:text="@string/secondTitle"
+        android:text="@string/jumperTitle"
         android:textAlignment="center"
         android:textSize="36sp"
         android:padding="20dp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/secondImage"
+        android:id="@+id/jumperImage"
         android:layout_width="296dp"
         android:layout_height="408dp"
         android:layout_marginStart="57dp"
@@ -31,41 +31,56 @@
         android:layout_marginEnd="58dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/secondPageText"
-        app:srcCompat="@drawable/remove_cover" />
+        app:layout_constraintTop_toBottomOf="@+id/jumperText"
+        app:srcCompat="@drawable/jumper_wire" />
 
     <TextView
-        android:id="@+id/secondPageText"
+        android:id="@+id/jumperText"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:textSize="24sp"
-        android:text="@string/secondPageText"
+        android:text="@string/jumperText"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/secondTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/jumperTitle" />
 
     <Button
-        android:id="@+id/continueButton"
+        android:id="@+id/buttonYes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="95dp"
-        android:background="#4fc4e9"
-        android:elevation="0dp"
-        android:fontFamily="sans-serif"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:text="@string/continueText"
-        android:textAlignment="center"
-        android:textColor="@android:color/white"
-        android:textSize="18sp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="16dp"
+        android:text="Yes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="No"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/buttonYes" />
+
+    <TextView
+        android:id="@+id/jumperQues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="123dp"
+        android:text="@string/jumperQues"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/jumperImage" />
 
 </android.support.constraint.ConstraintLayout>

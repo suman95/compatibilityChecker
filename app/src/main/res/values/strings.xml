@@ -15,4 +15,10 @@
     <string name="fourthText">Select which ones have connected wires.</string>
     <string name="fourthTextQues">Did you enter all of your wires?</string>
     <string name="yesContinue">Yes, Continue</string>
+    <string name="fourthTextLink">Some thermostats have 2 labels on each connector. Check <a href="https://nest.com/support/article/My-old-thermostat-has-two-labels-for-each-connector" target="_top">here</a> to see which label you should use.</string>
+    <string name="jumperText">A jumper wire looks like this:</string>
+    <string name="jumperTitle">Check for jumper wires.</string>
+    <string name="jumperQues">Do you see a jumper wire ?</string>
+    <string name="compatibleTitle">We’re compatible.</string>
+    <string name="compatibleText">Congratulations! These Nest Thermostats will work in your home.</string>
 </resources>
