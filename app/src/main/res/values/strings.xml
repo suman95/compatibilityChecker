@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CompatibilityChecker</string>
+    <string name="compatiblityChecker">Compatibility Checker</string>
+    <string name="firstPageText">Welcome to Nest. This tool will help you determine if a Nest Thermostat is compatible with your heating and cooling system.</string>
+    <string name="getStarted">Get Started</string>
+    <string name="secondTitle">First things first.</string>
+    <string name="secondPageText">Power off your system and remove the cover from your current thermostat. Some covers just pop off. Others need to be unscrewed.</string>
+    <string name="continueText">Continue</string>
+    <string name="thirdTitle">Take a look at your thermostat.</string>
+    <string name="thirdText">Nest isn’t compatible with your system if any of these things are true.</string>
+    <string name="highVoltageWireText">Your thermostat has stranded wires.</string>
+    <string name="highVoltageWireNutText">Your thermostat has thick, stranded wires connected by wire nuts.</string>
+    <string name="highVoltageWarningText">Your thermostat is labeled 110V or 120V.</string>
+    <string name="fourthTitle">Look at your wire labels</string>
+    <string name="fourthText">Select which ones have connected wires.</string>
+    <string name="fourthTextQues">Did you enter all of your wires?</string>
+    <string name="yesContinue">Yes, Continue</string>
+</resources>
